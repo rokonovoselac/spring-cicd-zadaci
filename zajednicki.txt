@@ -1,1 +1,3 @@
-Verzija: master - azurirana
+ HEAD
+
+Verzija: master - azurirana + konflikt-test grana
