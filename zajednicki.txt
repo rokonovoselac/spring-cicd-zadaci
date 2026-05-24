@@ -1,1 +1,1 @@
-Verzija: master
+Verzija: konflikt-test grana
