@@ -11,6 +11,6 @@ class DemoApplicationTests {
 
     @Test
     void brokenTest() {
-        org.junit.jupiter.api.Assertions.fail("namjerni fail");
+        throw new RuntimeException("NAMJERNI FAIL");
     }
 }
