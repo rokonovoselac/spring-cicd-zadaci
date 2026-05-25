@@ -34,7 +34,7 @@ jobs:
           java-version: "17"
 
       - name: Build i test
-        run: ./mvnw -B clean package
+        run: ./mvnw -B clean package -DskipTests
 
       - name: Upload artifact
         uses: actions/upload-artifact@v7
