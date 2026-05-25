@@ -2,7 +2,6 @@
 package com.example.demo;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 class DemoApplicationTests {
 
@@ -12,6 +11,6 @@ class DemoApplicationTests {
 
     @Test
     void brokenTest() {
-        fail("namjerni fail");
+        org.junit.jupiter.api.Assertions.fail("namjerni fail");
     }
 }
