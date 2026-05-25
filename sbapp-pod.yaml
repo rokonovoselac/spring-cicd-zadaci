@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sbapp-pod
+  labels:
+    app: sbapp
+spec:
+  containers:
+    - name: sbapp
+      image: fra.ocir.io/frq2xn6t0zir/spring-projects/spring-boot-hello-app:2.0
+      ports:
+        - containerPort: 8080
